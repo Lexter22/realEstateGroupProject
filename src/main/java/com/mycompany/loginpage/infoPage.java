@@ -19,10 +19,10 @@ import javax.swing.JTextArea;
  */
 public class infoPage extends JFrame {
     
-private JLabel nameId, ID, Price, Location;
-private JTextArea Info;
-private JButton Back, Buy;
-private JPanel pic;
+private JLabel lblNameId, lblID, lblPrice, lblLocation;
+private JTextArea txaInfo;
+private JButton btnBack, btnBuy;
+private JPanel pnPic;
     public infoPage(){
         
         setTitle("Details");
@@ -31,44 +31,44 @@ private JPanel pic;
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
-        nameId = new JLabel("Name: ");
-        nameId.setBounds(50, 50, 350, 50);
-        nameId.setFont(new Font("Arial" ,Font.PLAIN, 17));
-        add(nameId);
+        lblNameId = new JLabel("Name: ");
+        lblNameId.setBounds(50, 50, 350, 50);
+        lblNameId.setFont(new Font("Arial" ,Font.PLAIN, 17));
+        add(lblNameId);
         
-        ID = new JLabel("Property ID: ");
-        ID.setBounds(50, 110, 350, 50);
-        ID.setFont(new Font("Arial" ,Font.PLAIN, 17));
-        add(ID);
+        lblID = new JLabel("Property ID: ");
+        lblID.setBounds(50, 110, 350, 50);
+        lblID.setFont(new Font("Arial" ,Font.PLAIN, 17));
+        add(lblID);
         
-        Location = new JLabel("Location: " );
-        Location.setBounds(50, 170, 350, 50);
-        Location.setFont(new Font("Arial" ,Font.PLAIN, 17));
-        add(Location);
+        lblLocation = new JLabel("Location: " );
+        lblLocation.setBounds(50, 170, 350, 50);
+        lblLocation.setFont(new Font("Arial" ,Font.PLAIN, 17));
+        add(lblLocation);
         
-        Price = new JLabel("Price: ");
-        Price.setBounds(50, 230, 350, 50);
-        Price.setFont(new Font("Arial" ,Font.PLAIN, 17));
-        add(Price);
+        lblPrice = new JLabel("Price: ");
+        lblPrice.setBounds(50, 230, 350, 50);
+        lblPrice.setFont(new Font("Arial" ,Font.PLAIN, 17));
+        add(lblPrice);
         
-        Info = new JTextArea();
-        Info.setBounds(50, 290, 680, 290);
-        Info.setFont(new Font("Arial" ,Font.PLAIN, 17));
-        Info.setEditable(false);
-        add(Info);
+        txaInfo = new JTextArea();
+        txaInfo.setBounds(50, 290, 680, 290);
+        txaInfo.setFont(new Font("Arial" ,Font.PLAIN, 17));
+        txaInfo.setEditable(false);
+        add(txaInfo);
         
-        Back = new JButton("Back");
-        Back.setBounds(550, 610, 75, 30);
-        add(Back);
+        btnBack = new JButton("Back");
+        btnBack.setBounds(550, 610, 75, 30);
+        add(btnBack);
         
-        Buy = new JButton("Buy");
-        Buy.setBounds(650, 610, 75, 30);
-        add(Buy);
+        btnBuy = new JButton("Buy");
+        btnBuy.setBounds(650, 610, 75, 30);
+        add(btnBuy);
         
-        pic = new JPanel();
-        pic.setBounds(400, 50, 330, 230);
-        pic.setBackground(Color.red);
-        add(pic);
+        pnPic = new JPanel();
+        pnPic.setBounds(400, 50, 330, 230);
+        pnPic.setBackground(Color.red);
+        add(pnPic);
         
     }
     
