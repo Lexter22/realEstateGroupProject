@@ -11,6 +11,7 @@ package com.mycompany.loginpage;
 public class NewClass1 {
     private static void method() {
         System.out.println("hello");
+        System.out.println("world");
     }
     
 }
