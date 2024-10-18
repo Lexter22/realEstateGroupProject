@@ -9,5 +9,8 @@ package com.mycompany.loginpage;
  * @author jcasu
  */
 public class NewClass1 {
+    private static void method() {
+        System.out.println("hello");
+    }
     
 }
