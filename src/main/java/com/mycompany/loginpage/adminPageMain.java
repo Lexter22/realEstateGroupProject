@@ -8,9 +8,9 @@ package com.mycompany.loginpage;
  *
  * @author johnl
  */
-public class loginPageMain {
+public class adminPageMain {
     public static void main(String[] args) {
-        loginPage fr = new loginPage();
+        adminPage fr = new adminPage();
         fr.setVisible(true);
     }
 }
