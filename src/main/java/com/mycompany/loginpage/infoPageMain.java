@@ -8,9 +8,9 @@ package com.mycompany.loginpage;
  *
  * @author johnl
  */
-public class NewClass {
+public class infoPageMain {
     public static void main(String[] args) {
-        System.out.println("Hello World");
-        System.out.println("Testing");
+        infoPage fr = new infoPage();
+        fr.setVisible(true);
     }
 }

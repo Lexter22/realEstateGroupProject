@@ -8,9 +8,8 @@ package com.mycompany.loginpage;
  *
  * @author johnl
  */
-public class NewClass {
+public class abdul {
     public static void main(String[] args) {
-        System.out.println("Hello World");
-        System.out.println("Testing");
+        System.out.println("Abdul");
     }
 }
